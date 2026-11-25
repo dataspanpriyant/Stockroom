@@ -1,0 +1,2771 @@
+{
+  "products": [
+    {
+      "id": "PRD-001",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "barcode": "89011001",
+      "minimum": 30,
+      "price": 2499,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    },
+    {
+      "id": "PRD-002",
+      "name": "Ceramic Pour-Over Set",
+      "category": "Home & Living",
+      "barcode": "89011002",
+      "minimum": 20,
+      "price": 1299,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    },
+    {
+      "id": "PRD-003",
+      "name": "Everyday Backpack",
+      "category": "Accessories",
+      "barcode": "89011003",
+      "minimum": 25,
+      "price": 1799,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    },
+    {
+      "id": "PRD-004",
+      "name": "Linen Throw Blanket",
+      "category": "Home & Living",
+      "barcode": "89011004",
+      "minimum": 20,
+      "price": 999,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    },
+    {
+      "id": "PRD-005",
+      "name": "Masala Spice Box",
+      "category": "Kitchen",
+      "barcode": "89011005",
+      "minimum": 25,
+      "price": 699,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    },
+    {
+      "id": "PRD-006",
+      "name": "Handloom Cotton Bedsheet",
+      "category": "Home & Living",
+      "barcode": "89011006",
+      "minimum": 20,
+      "price": 1499,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    },
+    {
+      "id": "PRD-007",
+      "name": "Stainless Steel Bottle",
+      "category": "Outdoors",
+      "barcode": "89011007",
+      "minimum": 35,
+      "price": 599,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    },
+    {
+      "id": "PRD-008",
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "barcode": "89011008",
+      "minimum": 30,
+      "price": 899,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    },
+    {
+      "id": "PRD-009",
+      "name": "Terracotta Planter",
+      "category": "Garden",
+      "barcode": "89011009",
+      "minimum": 18,
+      "price": 449,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    },
+    {
+      "id": "PRD-010",
+      "name": "Foldable Raincoat",
+      "category": "Travel",
+      "barcode": "89011010",
+      "minimum": 24,
+      "price": 799,
+      "promotion": "",
+      "unit": "unit",
+      "productType": "Non-perishable",
+      "expiryTracking": true,
+      "serialTracking": false
+    }
+  ],
+  "warehouses": [
+    {
+      "id": "PRIYANT1",
+      "name": "PRIYANT1 · Mumbai"
+    },
+    {
+      "id": "PRIYANT2",
+      "name": "PRIYANT2 · Delhi"
+    },
+    {
+      "id": "PRIYANT3",
+      "name": "PRIYANT3 · Bengaluru"
+    },
+    {
+      "id": "PRIYANT4",
+      "name": "PRIYANT4 · Chennai"
+    },
+    {
+      "id": "PRIYANT5",
+      "name": "PRIYANT5 · Kolkata"
+    }
+  ],
+  "locations": [
+    {
+      "id": "P1-MUM-01",
+      "name": "Mumbai Rack 02 Column 04",
+      "warehouse": "PRIYANT1",
+      "capacity": 120,
+      "kind": "Storage",
+      "zone": "A",
+      "rack": "R02",
+      "row": 3,
+      "column": 4,
+      "shelf": 2,
+      "assignedProduct": "PRD-001"
+    },
+    {
+      "id": "P1-MUM-02",
+      "name": "Mumbai Rack 01 Column 02",
+      "warehouse": "PRIYANT1",
+      "capacity": 150,
+      "kind": "Pick face",
+      "zone": "A",
+      "rack": "R01",
+      "row": 1,
+      "column": 2,
+      "shelf": 3,
+      "assignedProduct": "PRD-002"
+    },
+    {
+      "id": "P1-THN-03",
+      "name": "Thane Rack 04 Column 01",
+      "warehouse": "PRIYANT1",
+      "capacity": 90,
+      "kind": "Storage",
+      "zone": "C",
+      "rack": "R04",
+      "row": 5,
+      "column": 1,
+      "shelf": 1,
+      "blocked": false
+    },
+    {
+      "id": "P1-PUN-04",
+      "name": "Pune Rack 03 Column 05",
+      "warehouse": "PRIYANT1",
+      "capacity": 200,
+      "kind": "Storage",
+      "zone": "B",
+      "rack": "B 01",
+      "row": 2,
+      "column": 5,
+      "shelf": 4,
+      "assignedProduct": "PRD-001",
+      "section": "R03-01"
+    },
+    {
+      "id": "P2-DEL-01",
+      "name": "Delhi Rack 03 Column 02",
+      "warehouse": "PRIYANT2",
+      "capacity": 180,
+      "kind": "Storage",
+      "zone": "Delhi",
+      "rack": "R03",
+      "row": 4,
+      "column": 2,
+      "shelf": 1,
+      "assignedProduct": "PRD-003"
+    },
+    {
+      "id": "P2-NCR-02",
+      "name": "Gurgaon Rack 01 Column 06",
+      "warehouse": "PRIYANT2",
+      "capacity": 130,
+      "kind": "Pick face",
+      "zone": "Gurgaon",
+      "rack": "R01",
+      "row": 2,
+      "column": 6,
+      "shelf": 3,
+      "assignedProduct": "PRD-004"
+    },
+    {
+      "id": "P2-NOI-03",
+      "name": "Noida Rack 05 Column 03",
+      "warehouse": "PRIYANT2",
+      "capacity": 110,
+      "kind": "Storage",
+      "zone": "Noida",
+      "rack": "R05",
+      "row": 1,
+      "column": 3,
+      "shelf": 2
+    },
+    {
+      "id": "P2-DEL-04",
+      "name": "Delhi Rack 02 Column 04",
+      "warehouse": "PRIYANT2",
+      "capacity": 160,
+      "kind": "Storage",
+      "zone": "Delhi",
+      "rack": "R02",
+      "row": 5,
+      "column": 4,
+      "shelf": 1
+    },
+    {
+      "id": "P3-BLR-01",
+      "name": "Bengaluru Rack 02 Column 05",
+      "warehouse": "PRIYANT3",
+      "capacity": 140,
+      "kind": "Storage",
+      "zone": "Bengaluru",
+      "rack": "R02",
+      "row": 1,
+      "column": 5,
+      "shelf": 2,
+      "assignedProduct": "PRD-005"
+    },
+    {
+      "id": "P3-ELE-02",
+      "name": "Electronic City Rack 04 Column 02",
+      "warehouse": "PRIYANT3",
+      "capacity": 100,
+      "kind": "Pick face",
+      "zone": "Electronic City",
+      "rack": "R04",
+      "row": 3,
+      "column": 2,
+      "shelf": 4,
+      "assignedProduct": "PRD-006"
+    },
+    {
+      "id": "P3-WHT-03",
+      "name": "Whitefield Rack 01 Column 07",
+      "warehouse": "PRIYANT3",
+      "capacity": 220,
+      "kind": "Storage",
+      "zone": "Whitefield",
+      "rack": "R01",
+      "row": 4,
+      "column": 7,
+      "shelf": 3
+    },
+    {
+      "id": "P3-BLR-04",
+      "name": "Bengaluru Rack 03 Column 01",
+      "warehouse": "PRIYANT3",
+      "capacity": 100,
+      "kind": "Storage",
+      "zone": "Bengaluru",
+      "rack": "R03",
+      "row": 2,
+      "column": 1,
+      "shelf": 1
+    },
+    {
+      "id": "P4-CHE-01",
+      "name": "Chennai Rack 01 Column 03",
+      "warehouse": "PRIYANT4",
+      "capacity": 150,
+      "kind": "Storage",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 4,
+      "column": 3,
+      "shelf": 1,
+      "assignedProduct": "PRD-007"
+    },
+    {
+      "id": "P4-GUI-02",
+      "name": "Guindy Rack 05 Column 05",
+      "warehouse": "PRIYANT4",
+      "capacity": 130,
+      "kind": "Pick face",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 2,
+      "column": 5,
+      "shelf": 1,
+      "assignedProduct": "PRD-008"
+    },
+    {
+      "id": "P4-TAM-03",
+      "name": "Tambaram Rack 02 Column 02",
+      "warehouse": "PRIYANT4",
+      "capacity": 200,
+      "kind": "Storage",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 5,
+      "column": 2,
+      "shelf": 1
+    },
+    {
+      "id": "P4-CHE-04",
+      "name": "Chennai Rack 04 Column 06",
+      "warehouse": "PRIYANT4",
+      "capacity": 90,
+      "kind": "Storage",
+      "zone": "Chennai",
+      "rack": "R04",
+      "row": 1,
+      "column": 6,
+      "shelf": 3
+    },
+    {
+      "id": "P5-KOL-01",
+      "name": "Kolkata Rack 03 Column 04",
+      "warehouse": "PRIYANT5",
+      "capacity": 125,
+      "kind": "Storage",
+      "zone": "Kolkata",
+      "rack": "R03",
+      "row": 3,
+      "column": 4,
+      "shelf": 2,
+      "assignedProduct": "PRD-009"
+    },
+    {
+      "id": "P5-SAL-02",
+      "name": "Salt Lake Rack 01 Column 02",
+      "warehouse": "PRIYANT5",
+      "capacity": 160,
+      "kind": "Pick face",
+      "zone": "Salt Lake",
+      "rack": "R01",
+      "row": 2,
+      "column": 2,
+      "shelf": 1,
+      "assignedProduct": "PRD-010"
+    },
+    {
+      "id": "P5-HOW-03",
+      "name": "Howrah Rack 04 Column 05",
+      "warehouse": "PRIYANT5",
+      "capacity": 100,
+      "kind": "Storage",
+      "zone": "Howrah",
+      "rack": "R04",
+      "row": 5,
+      "column": 5,
+      "shelf": 4,
+      "blocked": true
+    },
+    {
+      "id": "P5-KOL-04",
+      "name": "Kolkata Rack 02 Column 01",
+      "warehouse": "PRIYANT5",
+      "capacity": 180,
+      "kind": "Storage",
+      "zone": "Kolkata",
+      "rack": "R02",
+      "row": 1,
+      "column": 1,
+      "shelf": 3,
+      "assignedProduct": "PRD-010"
+    },
+    {
+      "id": "143",
+      "name": "Nashik",
+      "warehouse": "PRIYANT1",
+      "capacity": 120,
+      "kind": "Storage",
+      "zone": "D",
+      "rack": "a1",
+      "row": 1,
+      "column": 1,
+      "shelf": 1,
+      "blocked": false
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R1C1",
+      "name": "R1C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 1,
+      "column": 1,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R1C2",
+      "name": "R1C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 1,
+      "column": 2,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R1C3",
+      "name": "R1C3",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 1,
+      "column": 3,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R2C1",
+      "name": "R2C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 2,
+      "column": 1,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R2C2",
+      "name": "R2C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 2,
+      "column": 2,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R2C3",
+      "name": "R2C3",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 2,
+      "column": 3,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R3C1",
+      "name": "R3C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 3,
+      "column": 1,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R3C2",
+      "name": "R3C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 3,
+      "column": 2,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R3C3",
+      "name": "R3C3",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 3,
+      "column": 3,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R4C1",
+      "name": "R4C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 4,
+      "column": 1,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Chennai/R01/R4C2",
+      "name": "R4C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "row": 4,
+      "column": 2,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Guindy/R05/R1C1",
+      "name": "R1C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 1,
+      "column": 1,
+      "capacity": 130,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Guindy/R05/R1C2",
+      "name": "R1C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 1,
+      "column": 2,
+      "capacity": 130,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Guindy/R05/R1C3",
+      "name": "R1C3",
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 1,
+      "column": 3,
+      "capacity": 130,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Guindy/R05/R1C4",
+      "name": "R1C4",
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 1,
+      "column": 4,
+      "capacity": 130,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Guindy/R05/R1C5",
+      "name": "R1C5",
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 1,
+      "column": 5,
+      "capacity": 130,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Guindy/R05/R2C1",
+      "name": "R2C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 2,
+      "column": 1,
+      "capacity": 130,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Guindy/R05/R2C2",
+      "name": "R2C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 2,
+      "column": 2,
+      "capacity": 130,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Guindy/R05/R2C3",
+      "name": "R2C3",
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 2,
+      "column": 3,
+      "capacity": 130,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Guindy/R05/R2C4",
+      "name": "R2C4",
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "row": 2,
+      "column": 4,
+      "capacity": 130,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Tambaram/R02/R1C1",
+      "name": "R1C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 1,
+      "column": 1,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Tambaram/R02/R1C2",
+      "name": "R1C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 1,
+      "column": 2,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Tambaram/R02/R2C1",
+      "name": "R2C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 2,
+      "column": 1,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Tambaram/R02/R2C2",
+      "name": "R2C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 2,
+      "column": 2,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Tambaram/R02/R3C1",
+      "name": "R3C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 3,
+      "column": 1,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Tambaram/R02/R3C2",
+      "name": "R3C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 3,
+      "column": 2,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Tambaram/R02/R4C1",
+      "name": "R4C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 4,
+      "column": 1,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Tambaram/R02/R4C2",
+      "name": "R4C2",
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 4,
+      "column": 2,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT4/Tambaram/R02/R5C1",
+      "name": "R5C1",
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "row": 5,
+      "column": 1,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT1/A/R2/R1C1",
+      "name": "R1C1",
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R 03",
+      "row": 1,
+      "column": 1,
+      "capacity": 100,
+      "kind": "Storage",
+      "section": "R2-01"
+    },
+    {
+      "id": "PRIYANT1/A/R2/R1C2",
+      "name": "R1C2",
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R 03",
+      "row": 1,
+      "column": 2,
+      "capacity": 100,
+      "kind": "Storage",
+      "section": "R2-01"
+    },
+    {
+      "id": "PRIYANT1/B/B%2001/R03-01/R1C1",
+      "name": "R1C1",
+      "warehouse": "PRIYANT1",
+      "zone": "B",
+      "rack": "B 01",
+      "section": "R03-01",
+      "row": 1,
+      "column": 1,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT1/B/B%2001/R03-01/R2C1",
+      "name": "R2C1",
+      "warehouse": "PRIYANT1",
+      "zone": "B",
+      "rack": "B 01",
+      "section": "R03-01",
+      "row": 2,
+      "column": 1,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT1/B/B%2001/R03-01/R2C4",
+      "name": "R2C4",
+      "warehouse": "PRIYANT1",
+      "zone": "B",
+      "rack": "B 01",
+      "section": "R03-01",
+      "row": 2,
+      "column": 4,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT1/B/B%2001/R03-01/R2C3",
+      "name": "R2C3",
+      "warehouse": "PRIYANT1",
+      "zone": "B",
+      "rack": "B 01",
+      "section": "R03-01",
+      "row": 2,
+      "column": 3,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT1/B/B%2001/R03-01/R1C4",
+      "name": "R1C4",
+      "warehouse": "PRIYANT1",
+      "zone": "B",
+      "rack": "B 01",
+      "section": "R03-01",
+      "row": 1,
+      "column": 4,
+      "capacity": 200,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT1/A/R02/R02-01/R3C5",
+      "name": "R3C5",
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R02",
+      "section": "R02-01",
+      "row": 3,
+      "column": 5,
+      "capacity": 120,
+      "kind": "Storage"
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R02",
+      "section": "R02-01",
+      "id": "PRIYANT1/A/R02/R02-01/R2C1",
+      "name": "R2C1",
+      "row": 2,
+      "column": 1,
+      "capacity": 120,
+      "kind": "Storage"
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R02",
+      "section": "R02-01",
+      "id": "PRIYANT1/A/R02/R02-01/R2C2",
+      "name": "R2C2",
+      "row": 2,
+      "column": 2,
+      "capacity": 120,
+      "kind": "Storage"
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R02",
+      "section": "R02-01",
+      "id": "PRIYANT1/A/R02/R02-01/R1C1",
+      "name": "R1C1",
+      "row": 1,
+      "column": 1,
+      "capacity": 120,
+      "kind": "Storage"
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R02",
+      "section": "R02-01",
+      "id": "PRIYANT1/A/R02/R02-01/R1C2",
+      "name": "R1C2",
+      "row": 1,
+      "column": 2,
+      "capacity": 120,
+      "kind": "Storage"
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R02",
+      "section": "R02-01",
+      "id": "PRIYANT1/A/R02/R02-01/R1C3",
+      "name": "R1C3",
+      "row": 1,
+      "column": 3,
+      "capacity": 120,
+      "kind": "Storage"
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R01",
+      "section": "R01-01",
+      "id": "PRIYANT1/A/R01/R01-01/R2C1",
+      "name": "R2C1",
+      "row": 2,
+      "column": 1,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R01",
+      "section": "R01-01",
+      "id": "PRIYANT1/A/R01/R01-01/R2C2",
+      "name": "R2C2",
+      "row": 2,
+      "column": 2,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R01",
+      "section": "R01-01",
+      "id": "PRIYANT1/A/R01/R01-01/R2C3",
+      "name": "R2C3",
+      "row": 2,
+      "column": 3,
+      "capacity": 150,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT1/E/E%2001/R1C1",
+      "name": "R1C1",
+      "warehouse": "PRIYANT1",
+      "zone": "E",
+      "rack": "E 01",
+      "row": 1,
+      "column": 1,
+      "capacity": 10,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT1/E/E%2001/R1C2",
+      "name": "R1C2",
+      "warehouse": "PRIYANT1",
+      "zone": "E",
+      "rack": "E 01",
+      "row": 1,
+      "column": 2,
+      "capacity": 10,
+      "kind": "Storage"
+    },
+    {
+      "id": "PRIYANT1/E/E%2001/R1C3",
+      "name": "R1C3",
+      "warehouse": "PRIYANT1",
+      "zone": "E",
+      "rack": "E 01",
+      "row": 1,
+      "column": 3,
+      "capacity": 10,
+      "kind": "Storage"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "SUP-01",
+      "name": "Mumbai Goods Co."
+    },
+    {
+      "id": "SUP-02",
+      "name": "Delhi Home Traders"
+    },
+    {
+      "id": "SUP-03",
+      "name": "Southline Distribution"
+    }
+  ],
+  "users": [
+    {
+      "id": "admin",
+      "name": "Jordan Miller",
+      "role": "Admin",
+      "password": "",
+      "active": true
+    },
+    {
+      "id": "supervisor",
+      "name": "Morgan Lee",
+      "role": "Supervisor",
+      "password": "",
+      "active": true
+    },
+    {
+      "id": "operator",
+      "name": "Alex Chen",
+      "role": "Operator",
+      "password": "",
+      "active": true
+    },
+    {
+      "id": "viewer",
+      "name": "Sam Taylor",
+      "role": "Viewer",
+      "password": "",
+      "active": true
+    }
+  ],
+  "lots": [
+    {
+      "id": "DEMO-LOT-001",
+      "product": "PRD-001",
+      "batch": "MUM-26-001",
+      "expiry": "2028-06-30",
+      "location": "P1-MUM-01",
+      "qty": 72,
+      "reserved": 50
+    },
+    {
+      "id": "DEMO-LOT-002",
+      "product": "PRD-002",
+      "batch": "MUM-26-002",
+      "expiry": "2028-08-31",
+      "location": "P1-MUM-02",
+      "qty": 4,
+      "reserved": 2
+    },
+    {
+      "id": "DEMO-LOT-003",
+      "product": "PRD-003",
+      "batch": "DEL-26-001",
+      "expiry": "2029-01-31",
+      "location": "P2-DEL-01",
+      "qty": 58,
+      "reserved": 0
+    },
+    {
+      "id": "DEMO-LOT-004",
+      "product": "PRD-004",
+      "batch": "DEL-26-002",
+      "expiry": "2028-12-31",
+      "location": "P2-NCR-02",
+      "qty": 92,
+      "reserved": 0
+    },
+    {
+      "id": "DEMO-LOT-005",
+      "product": "PRD-005",
+      "batch": "BLR-26-001",
+      "expiry": "2027-11-30",
+      "location": "P3-BLR-01",
+      "qty": 66,
+      "reserved": 0
+    },
+    {
+      "id": "DEMO-LOT-006",
+      "product": "PRD-006",
+      "batch": "BLR-26-002",
+      "expiry": "2028-04-30",
+      "location": "P3-ELE-02",
+      "qty": 83,
+      "reserved": 0
+    },
+    {
+      "id": "DEMO-LOT-007",
+      "product": "PRD-007",
+      "batch": "CHE-26-001",
+      "expiry": "2030-02-28",
+      "location": "P4-CHE-01",
+      "qty": 78,
+      "reserved": 0
+    },
+    {
+      "id": "DEMO-LOT-008",
+      "product": "PRD-008",
+      "batch": "CHE-26-002",
+      "expiry": "2029-10-31",
+      "location": "P4-GUI-02",
+      "qty": 51,
+      "reserved": 0
+    },
+    {
+      "id": "DEMO-LOT-009",
+      "product": "PRD-009",
+      "batch": "KOL-26-001",
+      "expiry": "2029-03-31",
+      "location": "P5-KOL-01",
+      "qty": 39,
+      "reserved": 0
+    },
+    {
+      "id": "DEMO-LOT-010",
+      "product": "PRD-010",
+      "batch": "KOL-26-002",
+      "expiry": "2028-09-30",
+      "location": "P5-SAL-02",
+      "qty": 61,
+      "reserved": 0
+    },
+    {
+      "id": "LOT-837b4293",
+      "product": "PRD-001",
+      "batch": "1",
+      "expiry": "2026-11-19",
+      "location": "P1-MUM-01",
+      "qty": 48,
+      "reserved": 0,
+      "receiptId": "RCV-77e1f918",
+      "putAwayBy": "Jordan Miller",
+      "putAwayAt": "2026-11-19T07:26:37.419Z"
+    },
+    {
+      "id": "LOT-70a4fb8d",
+      "product": "PRD-001",
+      "batch": "1",
+      "expiry": "2026-11-19",
+      "location": "P1-PUN-04",
+      "qty": 2,
+      "reserved": 0,
+      "receiptId": "RCV-77e1f918",
+      "putAwayBy": "Jordan Miller",
+      "putAwayAt": "2026-11-19T07:27:12.550Z"
+    },
+    {
+      "id": "LOT-23da747c",
+      "product": "PRD-002",
+      "batch": "RCVSESSION-35e863b7-PRD-002",
+      "expiry": "2026-11-19",
+      "location": "P1-MUM-02",
+      "qty": 143,
+      "reserved": 0,
+      "receiptId": "RCV-901e3a18",
+      "putAwayBy": "Jordan Miller",
+      "putAwayAt": "2026-11-19T08:05:03.234Z"
+    },
+    {
+      "id": "LOT-033290d6",
+      "product": "PRD-010",
+      "receiptId": "DEMO-RCV-001",
+      "batch": "KOL-26-003",
+      "expiry": "2028-11-30",
+      "location": "P5-KOL-04",
+      "qty": 40,
+      "reserved": 0,
+      "putAwayBy": "Jordan Miller",
+      "putAwayAt": "2026-11-19T12:46:25.148Z"
+    },
+    {
+      "id": "LOT-653ab650",
+      "product": "PRD-002",
+      "batch": "123456789",
+      "expiry": "2026-11-30",
+      "location": "RECEIVING",
+      "qty": 100,
+      "reserved": 0,
+      "receiptId": "RCV-93c0ec31"
+    },
+    {
+      "id": "LOT-66bc9d70",
+      "product": "PRD-002",
+      "batch": "12345678910",
+      "expiry": "2026-11-30",
+      "location": "RECEIVING",
+      "qty": 98,
+      "reserved": 0,
+      "receiptId": "RCV-2f3f0bec"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "DEMO-RCV-001",
+      "supplier": "SUP-03",
+      "product": "PRD-010",
+      "expected": 40,
+      "received": 40,
+      "damaged": 0,
+      "accepted": 40,
+      "batch": "KOL-26-003",
+      "expiry": "2028-11-30",
+      "status": "Stored",
+      "grn": "GRN-DEMO-001",
+      "note": "Inspection fixture",
+      "warehouse": "PRIYANT5",
+      "receivingLocation": "RECEIVING",
+      "putAwayBy": "Jordan Miller",
+      "putAwayAt": "2026-11-19T12:46:25.148Z"
+    },
+    {
+      "id": "RCV-a52fa964",
+      "supplier": "SUP-01",
+      "product": "PRD-008",
+      "expected": 50,
+      "received": 50,
+      "damaged": 0,
+      "accepted": 50,
+      "batch": "1",
+      "expiry": "2026-11-19",
+      "status": "Stored",
+      "grn": "GRN-3bb670b7",
+      "note": "Nan",
+      "warehouse": "PRIYANT1",
+      "receivingLocation": "P1-MUM-02",
+      "putAwayBy": "Jordan Miller",
+      "putAwayAt": "2026-11-19T12:47:45.890Z"
+    },
+    {
+      "id": "RCV-77e1f918",
+      "supplier": "SUP-01",
+      "product": "PRD-001",
+      "expected": 100,
+      "received": 50,
+      "damaged": 0,
+      "accepted": 50,
+      "batch": "1",
+      "expiry": "2026-11-19",
+      "status": "Stored",
+      "grn": "GRN-ae0ef2ff",
+      "note": "Nan",
+      "warehouse": "PRIYANT1",
+      "receivingLocation": "P1-MUM-02",
+      "putAwayBy": "Jordan Miller",
+      "putAwayAt": "2026-11-19T07:27:12.550Z"
+    },
+    {
+      "id": "RCV-901e3a18",
+      "supplier": "SUP-01",
+      "product": "PRD-002",
+      "expected": 143,
+      "received": 143,
+      "damaged": 0,
+      "accepted": 143,
+      "batch": "RCVSESSION-35e863b7-PRD-002",
+      "expiry": "2026-11-19",
+      "status": "Stored",
+      "grn": "GRN-6a3040d3",
+      "note": "Good",
+      "warehouse": "PRIYANT1",
+      "receivingLocation": "P1-MUM-02",
+      "putAwayBy": "Jordan Miller",
+      "putAwayAt": "2026-11-19T08:05:03.234Z"
+    },
+    {
+      "id": "RCV-93c0ec31",
+      "supplier": "SUP-01",
+      "product": "PRD-002",
+      "expected": 100,
+      "received": 100,
+      "damaged": 0,
+      "accepted": 100,
+      "batch": "123456789",
+      "expiry": "2026-11-30",
+      "status": "Awaiting put away",
+      "grn": "GRN-e786f5f4",
+      "note": "Barcode reconciliation",
+      "warehouse": "PRIYANT1",
+      "receivingLocation": "RECEIVING",
+      "manufacturingDate": "2026-11-23",
+      "rejected": 0
+    },
+    {
+      "id": "RCV-2f3f0bec",
+      "supplier": "SUP-01",
+      "product": "PRD-002",
+      "expected": 98,
+      "received": 98,
+      "damaged": 0,
+      "accepted": 98,
+      "batch": "12345678910",
+      "expiry": "2026-11-30",
+      "status": "Awaiting put away",
+      "grn": "GRN-e519a805",
+      "note": "Barcode reconciliation",
+      "warehouse": "PRIYANT1",
+      "receivingLocation": "RECEIVING",
+      "rejected": 0
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-d33c5d28",
+      "customer": "Priyant",
+      "product": "PRD-002",
+      "qty": 1,
+      "picked": 0,
+      "allocations": [],
+      "status": "Cancelled",
+      "assignee": "",
+      "weight": 0,
+      "dimensions": "",
+      "material": "",
+      "courier": "",
+      "tracking": "",
+      "delivery": "",
+      "orderType": "Customer Order",
+      "lines": [
+        {
+          "product": "PRD-002",
+          "qty": 1,
+          "picked": 0,
+          "packed": 0
+        }
+      ],
+      "backordered": 0,
+      "createdBy": "Jordan Miller",
+      "createdAt": "2026-11-19T07:14:26.036Z"
+    },
+    {
+      "id": "ORD-4a2c0d9b",
+      "customer": "BOT1",
+      "product": "PRD-002",
+      "qty": 40,
+      "picked": 40,
+      "allocations": [
+        {
+          "lot": "DEMO-LOT-002",
+          "product": "PRD-002",
+          "qty": 40
+        }
+      ],
+      "status": "Dispatched",
+      "assignee": "operator",
+      "weight": 10,
+      "dimensions": "100",
+      "material": "Plastic bag",
+      "courier": "Courier",
+      "tracking": "abc",
+      "delivery": "Delivery exception",
+      "orderType": "Customer Order",
+      "lines": [
+        {
+          "product": "PRD-002",
+          "qty": 40,
+          "picked": 40,
+          "packed": 40
+        }
+      ],
+      "backordered": 0,
+      "createdBy": "Jordan Miller",
+      "createdAt": "2026-11-19T07:15:12.251Z",
+      "pickedBy": "Jordan Miller",
+      "pickedAt": "2026-11-19T07:16:32.122Z",
+      "packedBy": "Jordan Miller",
+      "packedAt": "2026-11-19T07:17:07.230Z",
+      "dispatchedBy": "Jordan Miller",
+      "dispatchedAt": "2026-11-19T07:17:31.912Z",
+      "vehicleNumber": "",
+      "receiverStore": "",
+      "dispatchNote": ""
+    },
+    {
+      "id": "ORD-df922589",
+      "customer": "BOT1",
+      "product": "PRD-002",
+      "qty": 1,
+      "picked": 0,
+      "allocations": [
+        {
+          "lot": "DEMO-LOT-002",
+          "product": "PRD-002",
+          "qty": 1
+        }
+      ],
+      "status": "Reserved",
+      "assignee": "",
+      "weight": 0,
+      "dimensions": "",
+      "material": "",
+      "courier": "",
+      "tracking": "",
+      "delivery": "",
+      "orderType": "Customer Order",
+      "lines": [
+        {
+          "product": "PRD-002",
+          "qty": 1,
+          "picked": 0,
+          "packed": 0
+        }
+      ],
+      "backordered": 0,
+      "createdBy": "Jordan Miller",
+      "createdAt": "2026-11-19T07:36:59.082Z"
+    },
+    {
+      "id": "ORD-c357d7b7",
+      "customer": "BOT1",
+      "product": "PRD-002",
+      "qty": 1,
+      "picked": 0,
+      "allocations": [
+        {
+          "lot": "DEMO-LOT-002",
+          "product": "PRD-002",
+          "qty": 1
+        }
+      ],
+      "status": "Reserved",
+      "assignee": "operator",
+      "weight": 0,
+      "dimensions": "",
+      "material": "",
+      "courier": "",
+      "tracking": "",
+      "delivery": "",
+      "orderType": "Customer Order",
+      "lines": [
+        {
+          "product": "PRD-002",
+          "qty": 1,
+          "picked": 0,
+          "packed": 0
+        }
+      ],
+      "backordered": 0,
+      "createdBy": "Jordan Miller",
+      "createdAt": "2026-11-19T08:02:42.429Z"
+    },
+    {
+      "id": "ORD-29a91b0f",
+      "customer": "BOT2",
+      "product": "PRD-008",
+      "qty": 50,
+      "picked": 50,
+      "allocations": [
+        {
+          "lot": "LOT-db51a2ed",
+          "product": "PRD-008",
+          "qty": 50
+        }
+      ],
+      "status": "Dispatched",
+      "assignee": "operator",
+      "weight": 100,
+      "dimensions": "100",
+      "material": "Plastic bag",
+      "courier": "Courier",
+      "tracking": "abc",
+      "delivery": "In transit",
+      "orderType": "Customer Order",
+      "lines": [
+        {
+          "product": "PRD-008",
+          "qty": 50,
+          "picked": 50,
+          "packed": 50
+        }
+      ],
+      "backordered": 0,
+      "createdBy": "Jordan Miller",
+      "createdAt": "2026-11-19T12:48:31.469Z",
+      "pickedBy": "Jordan Miller",
+      "pickedAt": "2026-11-19T12:49:59.072Z",
+      "packedBy": "Jordan Miller",
+      "packedAt": "2026-11-19T12:50:52.195Z",
+      "dispatchedBy": "Jordan Miller",
+      "dispatchedAt": "2026-11-19T12:52:04.063Z",
+      "vehicleNumber": "1458",
+      "receiverStore": "1",
+      "dispatchNote": "NICE"
+    },
+    {
+      "id": "ORD-9fea9a89",
+      "customer": "Priyant Shah",
+      "product": "PRD-001",
+      "qty": 50,
+      "picked": 0,
+      "allocations": [
+        {
+          "lot": "DEMO-LOT-001",
+          "product": "PRD-001",
+          "qty": 50
+        }
+      ],
+      "status": "Reserved",
+      "assignee": "",
+      "weight": 0,
+      "dimensions": "",
+      "material": "",
+      "courier": "",
+      "tracking": "",
+      "delivery": "",
+      "orderType": "Customer Order",
+      "lines": [
+        {
+          "product": "PRD-001",
+          "qty": 50,
+          "picked": 0,
+          "packed": 0
+        }
+      ],
+      "backordered": 0,
+      "createdBy": "Jordan Miller",
+      "createdAt": "2026-11-20T11:03:01.886Z"
+    }
+  ],
+  "approvals": [],
+  "returns": [],
+  "events": [
+    {
+      "id": "EVT-f73fbe8a",
+      "at": "2026-11-23T05:57:47.051Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/E/E%2001/E%2001-01",
+      "detail": "Removed row 2"
+    },
+    {
+      "id": "EVT-42b63608",
+      "at": "2026-11-23T05:57:39.242Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed column 9"
+    },
+    {
+      "id": "EVT-7f69fa54",
+      "at": "2026-11-23T05:57:33.649Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed column 8"
+    },
+    {
+      "id": "EVT-c1c3dbe8",
+      "at": "2026-11-23T05:57:28.042Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed column 6"
+    },
+    {
+      "id": "EVT-c4273c10",
+      "at": "2026-11-23T05:57:18.377Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R%2003/R2-01",
+      "detail": "Removed row 2"
+    },
+    {
+      "id": "EVT-3b90ee58",
+      "at": "2026-11-23T05:57:15.031Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R%2003/R2-01",
+      "detail": "Removed row 3"
+    },
+    {
+      "id": "EVT-e7a01af9",
+      "at": "2026-11-23T05:57:11.396Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R%2003/R2-01",
+      "detail": "Removed row 4"
+    },
+    {
+      "id": "EVT-bdbb02c1",
+      "at": "2026-11-23T05:56:54.941Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/C/R04/R04-01",
+      "detail": "Removed row 1"
+    },
+    {
+      "id": "EVT-75401ad3",
+      "at": "2026-11-23T05:56:45.767Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Removed row 3"
+    },
+    {
+      "id": "EVT-701b4947",
+      "at": "2026-11-23T05:48:43.810Z",
+      "actor": "Jordan Miller",
+      "action": "receiveReconciliation",
+      "reference": "RECON-5934387e",
+      "detail": "Confirmed barcode reconciliation for 2 batch lines"
+    },
+    {
+      "id": "EVT-2929732f",
+      "at": "2026-11-23T05:48:43.809Z",
+      "actor": "Jordan Miller",
+      "action": "receive",
+      "reference": "RCV-2f3f0bec",
+      "detail": "GRN-e519a805: accepted 98; damaged 0; missing 0; quality Passed. Barcode reconciliation"
+    },
+    {
+      "id": "EVT-bfd38c36",
+      "at": "2026-11-23T05:48:43.808Z",
+      "actor": "Jordan Miller",
+      "action": "receive",
+      "reference": "RCV-93c0ec31",
+      "detail": "GRN-e786f5f4: accepted 100; damaged 0; missing 0; quality Passed. Barcode reconciliation"
+    },
+    {
+      "id": "EVT-9242fe99",
+      "at": "2026-11-20T11:03:01.886Z",
+      "actor": "Jordan Miller",
+      "action": "order",
+      "reference": "ORD-9fea9a89",
+      "detail": "Reserved 50 units using earliest expiry first"
+    },
+    {
+      "id": "EVT-202e5174",
+      "at": "2026-11-20T05:32:16.746Z",
+      "actor": "Jordan Miller",
+      "action": "sampleProduct",
+      "reference": "SAMPLE-RICE",
+      "detail": "Updated sample product SAMPLE-RICE"
+    },
+    {
+      "id": "EVT-103a9102",
+      "at": "2026-11-20T05:30:39.810Z",
+      "actor": "Jordan Miller",
+      "action": "sampleProduct",
+      "reference": "SAMPLE-BISCUITS",
+      "detail": "Updated sample product SAMPLE-BISCUITS"
+    },
+    {
+      "id": "EVT-b2ce16c2",
+      "at": "2026-11-20T05:30:01.061Z",
+      "actor": "Jordan Miller",
+      "action": "sampleProduct",
+      "reference": "SAMPLE-BANANA",
+      "detail": "Updated sample product SAMPLE-BANANA"
+    },
+    {
+      "id": "EVT-73bdc77a",
+      "at": "2026-11-20T05:29:41.111Z",
+      "actor": "Jordan Miller",
+      "action": "sampleProduct",
+      "reference": "SAMPLE-APPLE",
+      "detail": "Updated sample product SAMPLE-APPLE"
+    },
+    {
+      "id": "EVT-8fecf3f9",
+      "at": "2026-11-20T05:29:18.786Z",
+      "actor": "Jordan Miller",
+      "action": "sampleProduct",
+      "reference": "SAMPLE-MILK",
+      "detail": "Updated sample product SAMPLE-MILK"
+    },
+    {
+      "id": "EVT-c76c0304",
+      "at": "2026-11-20T05:14:09.604Z",
+      "actor": "Jordan Miller",
+      "action": "sampleProduct",
+      "reference": "SAMPLE-MILK",
+      "detail": "Updated sample product SAMPLE-MILK"
+    },
+    {
+      "id": "EVT-d552aa0a",
+      "at": "2026-11-19T12:54:12.087Z",
+      "actor": "Jordan Miller",
+      "action": "configureRack",
+      "reference": "PRIYANT1 / E / E 01",
+      "detail": "Configured rack as 2 rows by 3 columns"
+    },
+    {
+      "id": "EVT-7b0524ff",
+      "at": "2026-11-19T12:53:58.721Z",
+      "actor": "Jordan Miller",
+      "action": "createLayoutZone",
+      "reference": "PRIYANT1/E",
+      "detail": "Created warehouse zone"
+    },
+    {
+      "id": "EVT-a0a419f2",
+      "at": "2026-11-19T12:53:46.337Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "Zone E",
+      "detail": "Removed Zone E"
+    },
+    {
+      "id": "EVT-2025604a",
+      "at": "2026-11-19T12:52:04.063Z",
+      "actor": "Jordan Miller",
+      "action": "dispatch",
+      "reference": "ORD-29a91b0f",
+      "detail": "Dispatched 50 with Courier, tracking abc; physical stock deducted once"
+    },
+    {
+      "id": "EVT-0c02dad9",
+      "at": "2026-11-19T12:50:52.195Z",
+      "actor": "Jordan Miller",
+      "action": "pack",
+      "reference": "ORD-29a91b0f",
+      "detail": "50 packed by Jordan Miller; 100 kg; 100; Plastic bag"
+    },
+    {
+      "id": "EVT-0ab52766",
+      "at": "2026-11-19T12:49:59.072Z",
+      "actor": "Jordan Miller",
+      "action": "pick",
+      "reference": "ORD-29a91b0f",
+      "detail": "Picked 50/50 of PRD-008 by Jordan Miller; 0 released from reservation. "
+    },
+    {
+      "id": "EVT-06192e51",
+      "at": "2026-11-19T12:49:08.048Z",
+      "actor": "Jordan Miller",
+      "action": "assign",
+      "reference": "ORD-29a91b0f",
+      "detail": "Assigned to Alex Chen"
+    },
+    {
+      "id": "EVT-52b3209e",
+      "at": "2026-11-19T12:48:31.469Z",
+      "actor": "Jordan Miller",
+      "action": "order",
+      "reference": "ORD-29a91b0f",
+      "detail": "Reserved 50 units using earliest expiry first"
+    },
+    {
+      "id": "EVT-7f926068",
+      "at": "2026-11-19T12:47:45.890Z",
+      "actor": "Jordan Miller",
+      "action": "putaway",
+      "reference": "LOT-f88ddefd",
+      "detail": "50 units moved from RECEIVING to PRIYANT1/Zone%20E/E%2001/R3C4 by Jordan Miller"
+    },
+    {
+      "id": "EVT-fd3a4a0c",
+      "at": "2026-11-19T12:46:25.148Z",
+      "actor": "Jordan Miller",
+      "action": "putaway",
+      "reference": "DEMO-LOT-011",
+      "detail": "40 units moved from RECEIVING to P5-KOL-04 by Jordan Miller"
+    },
+    {
+      "id": "EVT-757f57f0",
+      "at": "2026-11-19T12:41:35.631Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/Zone%20E/E%2001/E%2001-01",
+      "detail": "Removed column 5"
+    },
+    {
+      "id": "EVT-3333c97b",
+      "at": "2026-11-19T12:41:31.085Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/Zone%20E/E%2001/E%2001-01",
+      "detail": "Removed row 2"
+    },
+    {
+      "id": "EVT-8a0e894a",
+      "at": "2026-11-19T12:41:21.819Z",
+      "actor": "Jordan Miller",
+      "action": "configureRack",
+      "reference": "PRIYANT1 / Zone E / E 01",
+      "detail": "Configured rack as 3 rows by 5 columns"
+    },
+    {
+      "id": "EVT-33daa715",
+      "at": "2026-11-19T12:40:12.252Z",
+      "actor": "Jordan Miller",
+      "action": "createLayoutZone",
+      "reference": "PRIYANT1/Zone%20E",
+      "detail": "Created warehouse zone"
+    },
+    {
+      "id": "EVT-a870b0a0",
+      "at": "2026-11-19T12:39:54.279Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "c",
+      "detail": "Removed c"
+    },
+    {
+      "id": "EVT-12ed2351",
+      "at": "2026-11-19T12:39:42.164Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Removed column 2"
+    },
+    {
+      "id": "EVT-a094542c",
+      "at": "2026-11-19T12:38:21.173Z",
+      "actor": "Jordan Miller",
+      "action": "createLayoutZone",
+      "reference": "PRIYANT1/c",
+      "detail": "Created warehouse zone"
+    },
+    {
+      "id": "EVT-1d64be07",
+      "at": "2026-11-19T12:38:02.013Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R%2003/R2-01",
+      "detail": "Added 2 storage units to row 4"
+    },
+    {
+      "id": "EVT-835dacb4",
+      "at": "2026-11-19T12:23:03.313Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/C/R04/R04-01",
+      "detail": "Added 5 storage units to row 1"
+    },
+    {
+      "id": "EVT-66c86802",
+      "at": "2026-11-19T12:19:29.385Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R01/R01-01",
+      "detail": "Added 3 storage units to row 2"
+    },
+    {
+      "id": "EVT-0a341005",
+      "at": "2026-11-19T12:18:55.262Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Added 3 storage units to row 1"
+    },
+    {
+      "id": "EVT-758d86c9",
+      "at": "2026-11-19T12:18:41.690Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed row 1"
+    },
+    {
+      "id": "EVT-e75c5ff5",
+      "at": "2026-11-19T12:18:15.050Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Added 2 storage units to row 2"
+    },
+    {
+      "id": "EVT-fe4bcd2f",
+      "at": "2026-11-19T12:16:20.417Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed row 2"
+    },
+    {
+      "id": "EVT-92dae362",
+      "at": "2026-11-19T12:14:56.781Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed row 8"
+    },
+    {
+      "id": "EVT-c1e02c23",
+      "at": "2026-11-19T12:10:42.586Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Added 1 rows and 1 columns (11 storage units)"
+    },
+    {
+      "id": "EVT-28d6985b",
+      "at": "2026-11-19T12:10:33.942Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed row 7"
+    },
+    {
+      "id": "EVT-e4390d67",
+      "at": "2026-11-19T12:10:10.202Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Added 1 rows and 1 columns (10 storage units)"
+    },
+    {
+      "id": "EVT-7c2e7bc7",
+      "at": "2026-11-19T12:09:59.634Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed row 6"
+    },
+    {
+      "id": "EVT-0fc35dbc",
+      "at": "2026-11-19T12:09:47.833Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Added 1 rows and 0 columns (6 storage units)"
+    },
+    {
+      "id": "EVT-20db816d",
+      "at": "2026-11-19T12:09:30.238Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed row 4"
+    },
+    {
+      "id": "EVT-50eec1b5",
+      "at": "2026-11-19T12:09:26.371Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed row 5"
+    },
+    {
+      "id": "EVT-62ccdca7",
+      "at": "2026-11-19T12:09:20.219Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Removed column 7"
+    },
+    {
+      "id": "EVT-f090d29e",
+      "at": "2026-11-19T12:08:56.636Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R02/R02-01",
+      "detail": "Added 2 rows and 3 columns (23 storage units)"
+    },
+    {
+      "id": "EVT-68d0ccca",
+      "at": "2026-11-19T12:07:54.564Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "B / B 02",
+      "detail": "Removed B / B 02"
+    },
+    {
+      "id": "EVT-91002d8c",
+      "at": "2026-11-19T12:07:34.379Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R01/R01-01",
+      "detail": "Removed row 2"
+    },
+    {
+      "id": "EVT-8cf32d43",
+      "at": "2026-11-19T12:06:37.275Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/A/R01/R01-01",
+      "detail": "Added 1 row and 2 storage units"
+    },
+    {
+      "id": "EVT-a9d2fe0f",
+      "at": "2026-11-19T11:59:42.612Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Restored unit R1C4"
+    },
+    {
+      "id": "EVT-3c97762e",
+      "at": "2026-11-19T11:59:28.940Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Restored unit R2C2"
+    },
+    {
+      "id": "EVT-405f109d",
+      "at": "2026-11-19T11:59:28.164Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Restored unit R2C3"
+    },
+    {
+      "id": "EVT-2e5f3bfb",
+      "at": "2026-11-19T11:59:27.188Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Restored unit R2C4"
+    },
+    {
+      "id": "EVT-2276b588",
+      "at": "2026-11-19T11:59:23.631Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Restored unit R3C5"
+    },
+    {
+      "id": "EVT-c4bb149e",
+      "at": "2026-11-19T11:59:21.894Z",
+      "actor": "Jordan Miller",
+      "action": "deleteMaster",
+      "reference": "PRIYANT1/B/B%2001/R03-01/R3C5",
+      "detail": "Deleted location: PRIYANT1/B/B%2001/R03-01/R3C5"
+    },
+    {
+      "id": "EVT-44fe5d89",
+      "at": "2026-11-19T11:58:00.741Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Restored unit R2C1"
+    },
+    {
+      "id": "EVT-db32b429",
+      "at": "2026-11-19T11:57:59.857Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Restored unit R1C1"
+    },
+    {
+      "id": "EVT-6c992df3",
+      "at": "2026-11-19T11:57:52.772Z",
+      "actor": "Jordan Miller",
+      "action": "configureLayoutSection",
+      "reference": "PRIYANT1/B/B%2001/R03-01",
+      "detail": "Added 1 row and 5 storage units"
+    },
+    {
+      "id": "EVT-20482b20",
+      "at": "2026-11-19T11:37:42.185Z",
+      "actor": "Jordan Miller",
+      "action": "configureRack",
+      "reference": "PRIYANT1 / B / B 02",
+      "detail": "Configured rack as 2 rows by 3 columns"
+    },
+    {
+      "id": "EVT-0ad9fafd",
+      "at": "2026-11-19T11:36:28.155Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "A / B 01",
+      "detail": "Removed A / B 01"
+    },
+    {
+      "id": "EVT-64b925ce",
+      "at": "2026-11-19T11:35:49.750Z",
+      "actor": "Jordan Miller",
+      "action": "configureRack",
+      "reference": "PRIYANT1 / A / B 01",
+      "detail": "Configured rack as 2 rows by 3 columns"
+    },
+    {
+      "id": "EVT-a9031dd3",
+      "at": "2026-11-19T11:35:31.030Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "B / B",
+      "detail": "Renamed B / B to B 01"
+    },
+    {
+      "id": "EVT-2ec62b7a",
+      "at": "2026-11-19T11:35:15.339Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "B / R03",
+      "detail": "Renamed B / R03 to B"
+    },
+    {
+      "id": "EVT-23c44840",
+      "at": "2026-11-19T11:24:05.635Z",
+      "actor": "Jordan Miller",
+      "action": "setLayoutRowCapacity",
+      "reference": "PRIYANT1/A/R%2003/R2-01/R3",
+      "detail": "Updated row capacity"
+    },
+    {
+      "id": "EVT-41414a23",
+      "at": "2026-11-19T11:23:58.871Z",
+      "actor": "Jordan Miller",
+      "action": "setLayoutRowCapacity",
+      "reference": "PRIYANT1/A/R%2003/R2-01/R2",
+      "detail": "Updated row capacity"
+    },
+    {
+      "id": "EVT-2459711d",
+      "at": "2026-11-19T11:23:51.787Z",
+      "actor": "Jordan Miller",
+      "action": "setLayoutRowCapacity",
+      "reference": "PRIYANT1/A/R%2003/R2-01/R1",
+      "detail": "Updated row capacity"
+    },
+    {
+      "id": "EVT-971ee43f",
+      "at": "2026-11-19T11:19:44.442Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "A / R2",
+      "detail": "Renamed A / R2 to R 03"
+    },
+    {
+      "id": "EVT-5bf5b30e",
+      "at": "2026-11-19T11:18:41.956Z",
+      "actor": "Jordan Miller",
+      "action": "configureRack",
+      "reference": "PRIYANT1 / A / R2",
+      "detail": "Configured rack as 3 rows by 2 columns"
+    },
+    {
+      "id": "EVT-2106692a",
+      "at": "2026-11-19T11:00:15.692Z",
+      "actor": "Jordan Miller",
+      "action": "saveWarehouseLayout",
+      "reference": "PRIYANT3",
+      "detail": "Saved positions and sizes for 2 layout blocks"
+    },
+    {
+      "id": "EVT-678fb8a6",
+      "at": "2026-11-19T10:57:00.954Z",
+      "actor": "Jordan Miller",
+      "action": "saveWarehouseLayout",
+      "reference": "PRIYANT1",
+      "detail": "Saved positions and sizes for 2 layout blocks"
+    },
+    {
+      "id": "EVT-224ac92e",
+      "at": "2026-11-19T10:50:07.818Z",
+      "actor": "Jordan Miller",
+      "action": "configureRack",
+      "reference": "PRIYANT4 / Tambaram / R02",
+      "detail": "Configured rack as 5 rows by 2 columns"
+    },
+    {
+      "id": "EVT-76251b05",
+      "at": "2026-11-19T10:50:01.511Z",
+      "actor": "Jordan Miller",
+      "action": "configureRack",
+      "reference": "PRIYANT4 / Guindy / R05",
+      "detail": "Configured rack as 2 rows by 5 columns"
+    },
+    {
+      "id": "EVT-da5a4d8b",
+      "at": "2026-11-19T10:48:41.364Z",
+      "actor": "Jordan Miller",
+      "action": "configureRack",
+      "reference": "PRIYANT4 / Chennai / R01",
+      "detail": "Configured rack as 4 rows by 3 columns"
+    },
+    {
+      "id": "EVT-3b874da1",
+      "at": "2026-11-19T09:49:07.601Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "Nashik",
+      "detail": "Renamed Nashik to D"
+    },
+    {
+      "id": "EVT-a85bb56c",
+      "at": "2026-11-19T09:48:58.580Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "Thane",
+      "detail": "Renamed Thane to C"
+    },
+    {
+      "id": "EVT-4e38769b",
+      "at": "2026-11-19T09:48:42.559Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "Pune",
+      "detail": "Renamed Pune to B"
+    },
+    {
+      "id": "EVT-2e93c7d5",
+      "at": "2026-11-19T09:48:28.588Z",
+      "actor": "Jordan Miller",
+      "action": "editMapGroup",
+      "reference": "Mumbai",
+      "detail": "Renamed Mumbai to A"
+    },
+    {
+      "id": "EVT-7630ddf7",
+      "at": "2026-11-19T09:06:11.548Z",
+      "actor": "Jordan Miller",
+      "action": "delivery",
+      "reference": "ORD-4a2c0d9b",
+      "detail": "Delivery exception"
+    },
+    {
+      "id": "EVT-b0893171",
+      "at": "2026-11-19T09:05:47.444Z",
+      "actor": "Jordan Miller",
+      "action": "delivery",
+      "reference": "ORD-4a2c0d9b",
+      "detail": "Delivery exception"
+    },
+    {
+      "id": "EVT-4ae4241e",
+      "at": "2026-11-19T09:05:28.605Z",
+      "actor": "Jordan Miller",
+      "action": "delivery",
+      "reference": "ORD-4a2c0d9b",
+      "detail": "Delivered"
+    },
+    {
+      "id": "EVT-8a6462e6",
+      "at": "2026-11-19T08:58:53.486Z",
+      "actor": "Jordan Miller",
+      "action": "purchaseOrder",
+      "reference": "123",
+      "detail": "Purchase order 123 sent to receiving"
+    },
+    {
+      "id": "EVT-32dc2c01",
+      "at": "2026-11-19T08:58:48.988Z",
+      "actor": "Jordan Miller",
+      "action": "purchaseOrder",
+      "reference": "123",
+      "detail": "Purchase order 123 created"
+    },
+    {
+      "id": "EVT-74ee4af3",
+      "at": "2026-11-19T08:06:02.552Z",
+      "actor": "Jordan Miller",
+      "action": "assign",
+      "reference": "ORD-c357d7b7",
+      "detail": "Assigned to Alex Chen"
+    },
+    {
+      "id": "EVT-e8b33cf6",
+      "at": "2026-11-19T08:05:03.234Z",
+      "actor": "Jordan Miller",
+      "action": "putaway",
+      "reference": "LOT-35dced13",
+      "detail": "143 units moved from RECEIVING to P1-MUM-02 by Jordan Miller"
+    },
+    {
+      "id": "EVT-141c7460",
+      "at": "2026-11-19T08:02:42.429Z",
+      "actor": "Jordan Miller",
+      "action": "order",
+      "reference": "ORD-c357d7b7",
+      "detail": "Reserved 1 units using earliest expiry first"
+    },
+    {
+      "id": "EVT-7e15971d",
+      "at": "2026-11-19T07:51:23.166Z",
+      "actor": "Morgan Lee",
+      "action": "updateMaster",
+      "reference": "143",
+      "detail": "Updated Location"
+    },
+    {
+      "id": "EVT-a0a24f2f",
+      "at": "2026-11-19T07:50:54.909Z",
+      "actor": "Morgan Lee",
+      "action": "updateMaster",
+      "reference": "P1-THN-03",
+      "detail": "Updated Location"
+    },
+    {
+      "id": "EVT-5c7d18ce",
+      "at": "2026-11-19T07:50:41.160Z",
+      "actor": "Morgan Lee",
+      "action": "master",
+      "reference": "143",
+      "detail": "Created Location: Nashik"
+    },
+    {
+      "id": "EVT-2d0c07ca",
+      "at": "2026-11-19T07:45:27.357Z",
+      "actor": "Morgan Lee",
+      "action": "receiveScan",
+      "reference": "RCVSESSION-35e863b7",
+      "detail": "Receiving scan session confirmed by Morgan Lee; additional reason: Good"
+    },
+    {
+      "id": "EVT-31036e4e",
+      "at": "2026-11-19T07:45:27.357Z",
+      "actor": "Morgan Lee",
+      "action": "receive",
+      "reference": "RCV-901e3a18",
+      "detail": "GRN-6a3040d3: accepted 143; damaged 0; missing 0; quality Passed. Good"
+    },
+    {
+      "id": "EVT-eb6ca0b9",
+      "at": "2026-11-19T07:45:16.146Z",
+      "actor": "Morgan Lee",
+      "action": "receiveScan",
+      "reference": "RCVSESSION-35e863b7",
+      "detail": "Receiving scan session verified by Morgan Lee"
+    },
+    {
+      "id": "EVT-ec031bfa",
+      "at": "2026-11-19T07:44:52.390Z",
+      "actor": "Jordan Miller",
+      "action": "receiveScan",
+      "reference": "RCVSESSION-35e863b7",
+      "detail": "Scanned PRD-002 × 143 by Jordan Miller"
+    },
+    {
+      "id": "EVT-e64e069e",
+      "at": "2026-11-19T07:43:10.406Z",
+      "actor": "Jordan Miller",
+      "action": "receiveScan",
+      "reference": "RCVSESSION-a12d4780",
+      "detail": "Receiving scan session started"
+    },
+    {
+      "id": "EVT-9dc087db",
+      "at": "2026-11-19T07:39:46.928Z",
+      "actor": "Jordan Miller",
+      "action": "receiveScan",
+      "reference": "RCVSESSION-8536c415",
+      "detail": "Receiving scan session started"
+    },
+    {
+      "id": "EVT-09aa4f79",
+      "at": "2026-11-19T07:36:59.083Z",
+      "actor": "Jordan Miller",
+      "action": "order",
+      "reference": "ORD-df922589",
+      "detail": "Reserved 1 units using earliest expiry first"
+    },
+    {
+      "id": "EVT-e1aa4ff2",
+      "at": "2026-11-19T07:27:12.550Z",
+      "actor": "Jordan Miller",
+      "action": "putaway",
+      "reference": "LOT-f9c076c7",
+      "detail": "2 units moved from RECEIVING to P1-PUN-04 by Jordan Miller"
+    },
+    {
+      "id": "EVT-cf4b6b7b",
+      "at": "2026-11-19T07:26:37.419Z",
+      "actor": "Jordan Miller",
+      "action": "putaway",
+      "reference": "LOT-f9c076c7",
+      "detail": "48 units moved from RECEIVING to P1-MUM-01 by Jordan Miller"
+    },
+    {
+      "id": "EVT-28cb6de3",
+      "at": "2026-11-19T07:25:29.219Z",
+      "actor": "Jordan Miller",
+      "action": "receive",
+      "reference": "RCV-77e1f918",
+      "detail": "GRN-ae0ef2ff: accepted 50; damaged 0; missing 50; quality Passed. Nan"
+    },
+    {
+      "id": "EVT-3e0c6627",
+      "at": "2026-11-19T07:25:29.201Z",
+      "actor": "Jordan Miller",
+      "action": "receive",
+      "reference": "RCV-a52fa964",
+      "detail": "GRN-3bb670b7: accepted 50; damaged 0; missing 0; quality Passed. Nan"
+    },
+    {
+      "id": "EVT-a77eb369",
+      "at": "2026-11-19T07:22:17.056Z",
+      "actor": "Jordan Miller",
+      "action": "receiveScan",
+      "reference": "RCVSESSION-35e863b7",
+      "detail": "Receiving scan session started"
+    },
+    {
+      "id": "EVT-c547ba17",
+      "at": "2026-11-19T07:17:43.577Z",
+      "actor": "Jordan Miller",
+      "action": "delivery",
+      "reference": "ORD-4a2c0d9b",
+      "detail": "In transit"
+    },
+    {
+      "id": "EVT-2b20f61f",
+      "at": "2026-11-19T07:17:31.913Z",
+      "actor": "Jordan Miller",
+      "action": "dispatch",
+      "reference": "ORD-4a2c0d9b",
+      "detail": "Dispatched 40 with Courier, tracking abc; physical stock deducted once"
+    },
+    {
+      "id": "EVT-8e453e6a",
+      "at": "2026-11-19T07:17:07.230Z",
+      "actor": "Jordan Miller",
+      "action": "pack",
+      "reference": "ORD-4a2c0d9b",
+      "detail": "40 packed by Jordan Miller; 10 kg; 100; Plastic bag"
+    },
+    {
+      "id": "EVT-10c34a66",
+      "at": "2026-11-19T07:16:32.122Z",
+      "actor": "Jordan Miller",
+      "action": "pick",
+      "reference": "ORD-4a2c0d9b",
+      "detail": "Picked 40/40 of PRD-002 by Jordan Miller; 0 released from reservation. Nan"
+    },
+    {
+      "id": "EVT-33fd8ee6",
+      "at": "2026-11-19T07:15:39.476Z",
+      "actor": "Jordan Miller",
+      "action": "assign",
+      "reference": "ORD-4a2c0d9b",
+      "detail": "Assigned to Alex Chen"
+    },
+    {
+      "id": "EVT-2fcfb091",
+      "at": "2026-11-19T07:15:12.251Z",
+      "actor": "Jordan Miller",
+      "action": "order",
+      "reference": "ORD-4a2c0d9b",
+      "detail": "Reserved 40 units using earliest expiry first"
+    },
+    {
+      "id": "EVT-85d34001",
+      "at": "2026-11-19T07:14:36.967Z",
+      "actor": "Jordan Miller",
+      "action": "cancel",
+      "reference": "ORD-d33c5d28",
+      "detail": "n"
+    },
+    {
+      "id": "EVT-a3813b0c",
+      "at": "2026-11-19T07:14:26.036Z",
+      "actor": "Jordan Miller",
+      "action": "order",
+      "reference": "ORD-d33c5d28",
+      "detail": "Reserved 1 units using earliest expiry first"
+    }
+  ],
+  "syncs": [],
+  "purchaseOrders": [
+    {
+      "id": "123",
+      "supplier": "SUP-01",
+      "product": "PRD-008",
+      "qty": 200,
+      "status": "Sent",
+      "receivedQty": 0,
+      "createdAt": "2026-11-19T08:58:48.987Z",
+      "sentAt": "2026-11-19T08:58:53.486Z"
+    }
+  ],
+  "storeStock": [],
+  "stores": [],
+  "transfers": [],
+  "receivingSessions": [
+    {
+      "id": "RCVSESSION-35e863b7",
+      "supplier": "SUP-01",
+      "warehouse": "PRIYANT1",
+      "receivingLocation": "P1-MUM-02",
+      "expected": [
+        {
+          "product": "PRD-008",
+          "qty": 50
+        },
+        {
+          "product": "PRD-001",
+          "qty": 100
+        }
+      ],
+      "scanned": [
+        {
+          "product": "PRD-002",
+          "qty": 143
+        }
+      ],
+      "confirmed": true,
+      "step": "Confirm",
+      "scannedBy": "Jordan Miller",
+      "scannedAt": "2026-11-19T07:44:52.390Z",
+      "verifiedBy": "Morgan Lee",
+      "verifiedAt": "2026-11-19T07:45:16.146Z",
+      "confirmedBy": "Morgan Lee",
+      "confirmedAt": "2026-11-19T07:45:27.357Z"
+    },
+    {
+      "id": "RCVSESSION-8536c415",
+      "supplier": "SUP-01",
+      "warehouse": "PRIYANT1",
+      "receivingLocation": "P1-MUM-02",
+      "expected": [
+        {
+          "product": "PRD-001",
+          "qty": 100
+        }
+      ],
+      "scanned": [],
+      "confirmed": false,
+      "step": "Scan",
+      "scannedBy": "",
+      "scannedAt": "",
+      "verifiedBy": "",
+      "verifiedAt": "",
+      "confirmedBy": "",
+      "confirmedAt": ""
+    },
+    {
+      "id": "RCVSESSION-a12d4780",
+      "supplier": "SUP-02",
+      "warehouse": "PRIYANT2",
+      "receivingLocation": "P4-CHE-04",
+      "expected": [
+        {
+          "product": "PRD-008",
+          "qty": 143
+        }
+      ],
+      "scanned": [],
+      "confirmed": false,
+      "step": "Scan",
+      "scannedBy": "",
+      "scannedAt": "",
+      "verifiedBy": "",
+      "verifiedAt": "",
+      "confirmedBy": "",
+      "confirmedAt": ""
+    }
+  ],
+  "connectors": [
+    {
+      "system": "ERP",
+      "owner": "ERP owns products, suppliers, purchase and sales orders; WMS owns warehouse stock",
+      "direction": "Inbound masters / orders; outbound stock movements",
+      "frequency": "Manual import and export",
+      "enabled": false
+    },
+    {
+      "system": "POS",
+      "owner": "POS owns store sales; WMS owns warehouse fulfillment and return inspection",
+      "direction": "Inbound sales and customer returns; store stock updates",
+      "frequency": "Manual import and export",
+      "enabled": false
+    },
+    {
+      "system": "ESL",
+      "owner": "ERP owns prices and promotions; WMS supplies shelf stock",
+      "direction": "Outbound price, promotion and shelf stock feed",
+      "frequency": "Manual export",
+      "enabled": false
+    }
+  ],
+  "rackGrids": [
+    {
+      "warehouse": "PRIYANT4",
+      "zone": "Chennai",
+      "rack": "R01",
+      "rows": 4,
+      "columns": 3,
+      "capacity": 150
+    },
+    {
+      "warehouse": "PRIYANT4",
+      "zone": "Guindy",
+      "rack": "R05",
+      "rows": 2,
+      "columns": 5,
+      "capacity": 130
+    },
+    {
+      "warehouse": "PRIYANT4",
+      "zone": "Tambaram",
+      "rack": "R02",
+      "rows": 5,
+      "columns": 2,
+      "capacity": 200
+    }
+  ],
+  "layoutBlocks": [
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "x": 30,
+      "y": 21,
+      "width": 388,
+      "height": 342
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R02",
+      "x": 12,
+      "y": 132,
+      "width": 376,
+      "height": 170
+    },
+    {
+      "warehouse": "PRIYANT3",
+      "zone": "Electronic City",
+      "x": 839,
+      "y": 439,
+      "width": 405,
+      "height": 231
+    },
+    {
+      "warehouse": "PRIYANT3",
+      "zone": "Bengaluru",
+      "x": 854,
+      "y": 22,
+      "width": 390,
+      "height": 328
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "E",
+      "x": 24,
+      "y": 684,
+      "width": 390,
+      "height": 166
+    }
+  ],
+  "layoutSections": [
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R01",
+      "section": "R01-01",
+      "rows": 2,
+      "columns": 3,
+      "rowNumbers": [
+        1,
+        2
+      ],
+      "removedRows": [],
+      "removedColumns": []
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "B",
+      "rack": "B 01",
+      "section": "R03-01",
+      "rows": 3,
+      "columns": 5,
+      "removedRows": [
+        3
+      ],
+      "removedColumns": [
+        2
+      ]
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "C",
+      "rack": "R04",
+      "section": "R04-01",
+      "rows": 5,
+      "columns": 5,
+      "removedRows": [
+        1
+      ],
+      "removedColumns": [],
+      "rowNumbers": [
+        5
+      ],
+      "rowNames": {}
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R 03",
+      "section": "R2-01",
+      "rows": 4,
+      "columns": 2,
+      "removedRows": [
+        4,
+        3,
+        2
+      ],
+      "removedColumns": [],
+      "rowNumbers": [
+        1
+      ],
+      "rowNames": {}
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "A",
+      "rack": "R02",
+      "section": "R02-01",
+      "rows": 8,
+      "columns": 9,
+      "removedRows": [
+        5,
+        4,
+        6,
+        7,
+        8
+      ],
+      "removedColumns": [
+        7,
+        6,
+        8,
+        9
+      ],
+      "rowNumbers": [
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "warehouse": "PRIYANT1",
+      "zone": "E",
+      "rack": "E 01",
+      "section": "E 01-01",
+      "rows": 2,
+      "columns": 3,
+      "removedRows": [
+        2
+      ],
+      "removedColumns": []
+    }
+  ],
+  "sampleProducts": [
+    {
+      "id": "SAMPLE-APPLE",
+      "name": "Apple",
+      "category": "Fruits",
+      "barcode": "6786786787",
+      "unit": "kg",
+      "productType": "Perishable",
+      "expiryTracking": true,
+      "serialTracking": false,
+      "sample": true,
+      "brand": ""
+    },
+    {
+      "id": "SAMPLE-BANANA",
+      "name": "Banana",
+      "category": "Fruits",
+      "barcode": "500980000098",
+      "unit": "kg",
+      "productType": "Perishable",
+      "expiryTracking": true,
+      "serialTracking": false,
+      "sample": true,
+      "brand": ""
+    },
+    {
+      "id": "SAMPLE-MILK",
+      "name": "Amul Milk",
+      "category": "Dairy",
+      "barcode": "564859789979",
+      "unit": "packet",
+      "productType": "Perishable",
+      "expiryTracking": true,
+      "serialTracking": false,
+      "sample": true,
+      "brand": ""
+    },
+    {
+      "id": "SAMPLE-BISCUITS",
+      "name": "Biscuits",
+      "category": "Snacks",
+      "barcode": "123123123456",
+      "unit": "pack",
+      "productType": "Non-perishable",
+      "expiryTracking": false,
+      "serialTracking": false,
+      "sample": true,
+      "brand": ""
+    },
+    {
+      "id": "SAMPLE-RICE",
+      "name": "Rice",
+      "category": "Grocery",
+      "barcode": "6890456890",
+      "unit": "kg",
+      "productType": "Non-perishable",
+      "expiryTracking": false,
+      "serialTracking": false,
+      "sample": true,
+      "brand": ""
+    }
+  ]
+}
